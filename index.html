@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado del Servicio AFIP</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SERVICIOS DE AFIP</h1>
+        <!-- Contenedor para mostrar los servicios -->
+        <div class="service-container">
+            <!-- Servicio 1: AppServer -->
+            <div class="service">
+                <p class="service-label">AppServer</p>
+                <!-- Semaforo para AppServer -->
+                <div class="semaforo" id="appServerSemaforo"></div>
+                <!-- Mensaje de estado para AppServer -->
+                <p class="status-message" id="appServerStatus"></p>
+            </div>
+            <!-- Servicio 2: DbServer -->
+            <div class="service">
+                <p class="service-label">DbServer</p>
+                <!-- Semaforo para DbServer -->
+                <div class="semaforo" id="dbServerSemaforo"></div>
+                <!-- Mensaje de estado para DbServer -->
+                <p class="status-message" id="dbServerStatus"></p>
+            </div>
+            <!-- Servicio 3: AuthServer -->
+            <div class="service">
+                <p class="service-label">AuthServer</p>
+                <!-- Semaforo para AuthServer -->
+                <div class="semaforo" id="authServerSemaforo"></div>
+                <!-- Mensaje de estado para AuthServer -->
+                <p class="status-message" id="authServerStatus"></p>                
+            </div>
+            <!-- Servicio 4: Estado del Servicio de AFIP -->
+            <div class="service">
+                <p class="service-label">Estado del Servicio de AFIP</p>
+                <!-- Semaforo para el Estado del Servicio de AFIP -->
+                <div class="semaforo" id="afipServiceSemaforo"></div>
+                <!-- Mensaje de estado para el Estado del Servicio de AFIP -->
+                <p class="status-message" id="afipServiceStatus"></p>                
+            </div>
+        </div>
+    <!-- Tabla de Datos -->
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Empresa</th>
+                <th>Local</th>
+                <th>Caja</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+        
+        </tbody>
+    </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

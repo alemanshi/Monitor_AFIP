@@ -1,0 +1,85 @@
+/* Estilos para el body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Cambia el color de fondo a negro */
+    color: white; /* Cambia el color del texto a blanco */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el título principal */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white; /* Cambia el color del título a blanco */
+}
+
+/* Estilos para el contenedor de servicios */
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilos para cada servicio individual */
+.service {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la etiqueta de servicio */
+.service-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el semáforo */
+.semaforo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo semi-transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+/* Estilos para el mensaje de estado */
+.status-message {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilos para el semáforo verde */
+.semaforo.green {
+    background-color: #4CAF50; /* Verde */
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+/* Estilos para el semáforo rojo */
+.semaforo.red {
+    background-color: #F44336; /* Rojo */
+    color: white; /* Cambia el color del texto a blanco */
+}
